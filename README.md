@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./image/readme-hero.svg" alt="shnwazdev portfolio banner" width="100%">
-</p>
-
 <h1 align="center">shnwazdeveloper.github.io</h1>
 
 <p align="center">
