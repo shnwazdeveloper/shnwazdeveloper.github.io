@@ -988,8 +988,28 @@ ${this.wrapWithColor("GitHub:", "#ff8c00")} ${this.wrapWithColor(
       "#ffffff"
     )}
 
+${this.wrapWithColor("Telegram:", "#ff8c00")} ${this.wrapWithColor(
+      '<a href="https://t.me/Syntaxpy" target="_blank" style="color: #ffffff; text-decoration: none;">t.me/Syntaxpy</a>',
+      "#ffffff"
+    )}
+
+${this.wrapWithColor("X:", "#ff8c00")} ${this.wrapWithColor(
+      '<a href="https://x.com/shnwazdev" target="_blank" style="color: #ffffff; text-decoration: none;">x.com/shnwazdev</a>',
+      "#ffffff"
+    )}
+
 ${this.wrapWithColor("LinkedIn:", "#ff8c00")} ${this.wrapWithColor(
       '<a href="https://www.linkedin.com/in/shnwazdev/" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com/in/shnwazdev</a>',
+      "#ffffff"
+    )}
+
+${this.wrapWithColor("Instagram:", "#ff8c00")} ${this.wrapWithColor(
+      '<a href="https://instagram.com/sexyshnwaz" target="_blank" style="color: #ffffff; text-decoration: none;">instagram.com/sexyshnwaz</a>',
+      "#ffffff"
+    )}
+
+${this.wrapWithColor("Owner profile:", "#ff8c00")} ${this.wrapWithColor(
+      '<a href="https://shnwazdeveloper.github.io/owner.html" target="_blank" style="color: #ffffff; text-decoration: none;">shnwazdeveloper.github.io/owner.html</a>',
       "#ffffff"
     )}
 

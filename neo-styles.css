@@ -2780,8 +2780,8 @@ body[data-theme="dark"] .map-popup-company span {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
   padding: 1rem;
 }
 
@@ -2833,6 +2833,13 @@ body[data-theme="dark"] .map-popup-company span {
   transform: rotate(15deg);
 }
 
+.contact-card:nth-child(4)::before,
+.contact-card:nth-child(5)::before,
+.contact-card:nth-child(6)::before,
+.contact-card:nth-child(7)::before {
+  transform: rotate(15deg);
+}
+
 .contact-card:nth-child(1):hover::before {
   transform: rotate(17deg) translateY(10px);
 }
@@ -2843,6 +2850,13 @@ body[data-theme="dark"] .map-popup-company span {
 
 .contact-card:nth-child(3):hover::before {
   transform: rotate(16deg) translateY(10px);
+}
+
+.contact-card:nth-child(4):hover::before,
+.contact-card:nth-child(5):hover::before,
+.contact-card:nth-child(6):hover::before,
+.contact-card:nth-child(7):hover::before {
+  transform: rotate(15deg) translateY(10px);
 }
 
 .contact-card::after {
@@ -2869,6 +2883,13 @@ body[data-theme="dark"] .map-popup-company span {
   transform: rotate(1deg) translateY(10px);
 }
 
+.contact-card:nth-child(4):hover::after,
+.contact-card:nth-child(5):hover::after,
+.contact-card:nth-child(6):hover::after,
+.contact-card:nth-child(7):hover::after {
+  transform: rotate(1deg) translateY(10px);
+}
+
 .contact-card:nth-child(1) {
   background: #66d9ef;
   transform: rotate(-2deg);
@@ -2881,6 +2902,26 @@ body[data-theme="dark"] .map-popup-company span {
 
 .contact-card:nth-child(3) {
   background: #ff6b9d;
+  transform: rotate(-1deg);
+}
+
+.contact-card:nth-child(4) {
+  background: #a8e6cf;
+  transform: rotate(2deg);
+}
+
+.contact-card:nth-child(5) {
+  background: #c7b9ff;
+  transform: rotate(-2deg);
+}
+
+.contact-card:nth-child(6) {
+  background: #ffb347;
+  transform: rotate(1deg);
+}
+
+.contact-card:nth-child(7) {
+  background: #f6f7fb;
   transform: rotate(-1deg);
 }
 
@@ -2918,6 +2959,22 @@ body[data-theme="dark"] .contact-card:nth-child(2) {
 
 body[data-theme="dark"] .contact-card:nth-child(3) {
   background: #ff6b9d;
+}
+
+body[data-theme="dark"] .contact-card:nth-child(4) {
+  background: #a8e6cf;
+}
+
+body[data-theme="dark"] .contact-card:nth-child(5) {
+  background: #c7b9ff;
+}
+
+body[data-theme="dark"] .contact-card:nth-child(6) {
+  background: #ffb347;
+}
+
+body[data-theme="dark"] .contact-card:nth-child(7) {
+  background: #f6f7fb;
 }
 
 body[data-theme="dark"] .contact-card::before {
